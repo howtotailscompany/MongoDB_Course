@@ -32,6 +32,7 @@ db.createCollection("Students", {
 ข้างล่างเป็นคำสั่ง Insert 3 Documents เข้าไปยัง Collection :
 
 --------------------- เริ่มต้น CRUD ------------------------
+
 db.Students.insertOne( {
    name: "Alice",
    year: Int32( 2019 ),
@@ -68,7 +69,9 @@ db.Students.insertOne( {
    }
 } )
 
+
 ตัวอย่างคำสั่งอื่นๆ ดังข้างล่าง
+
 -----------------------rename collection--------------------------
 
 db.Accounts.renameCollection("accounts");
